@@ -1,0 +1,18 @@
+.movieRow{
+    margin-bottom: 30px;
+}
+
+.movieRow h2{
+    margin: 0px 0px 0px 30px;
+}
+
+.listArea{
+      overflow-x: hidden;
+    
+}
+.list{
+    width: 10000px;
+}
+.poster{
+    display: inline-block;
+}
