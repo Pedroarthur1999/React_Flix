@@ -2,6 +2,7 @@
 import React from "react";
 import "./movieRow.css";
 
+
 export default ({ title, items }) => {
   return (
     <div className="movieRow">
@@ -10,6 +11,7 @@ export default ({ title, items }) => {
         <div className="list">
             {items.results.length > 0 && items.results.map((item, key) => (
                 <div className="poster" key={key}>
+
                   <img src={`https://image.tmdb.org/t/p/w200${item.poster_path}`} />
                 </div>
               ))}

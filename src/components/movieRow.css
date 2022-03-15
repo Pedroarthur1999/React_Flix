@@ -1,35 +1,33 @@
-.movieRow{
-    margin-bottom: 30px;
+.movieRow {
+  margin-bottom: 30px;
 }
 
-.movieRow h2{
-    margin: 0px 0px 0px 30px;
+.movieRow h2 {
+  margin: 0px 0px 0px 30px;
 }
 
-.listArea{
-      overflow-x: hidden;
-    
+.listArea {
+  overflow-x: hidden;
 }
-.list{
-    width:99999999px;
-    padding-left: 40px;
+.list {
+  width: 99999999px;
+  padding-left: 40px;
 }
-.poster{
-    display: inline-block;
-    width: 175px;
-    overflow: hidden;
-    cursor: pointer;
+.poster {
+  display: inline-block;
+  width: 185px;
+  overflow: hidden;
+  cursor: pointer;
 }
-.poster img{
-    overflow-x: hidden;
-    width: 100%;
-    transform: scale(0.9);
-    transition-duration: .3s;
+.poster img {
+  overflow-x: hidden;
+  width: 100%;
+  transform: scale(0.9);
+  transition-duration: 0.3s;
 }
-.poster:hover img{
-    transition-duration: .3s;
-    transform: scale(1.0);
+.poster:hover img {
+  transition-duration: 0.3s;
+  transform: scale(1);
 }
-::-webkit-scrollbar{
-    
+::-webkit-scrollbar {
 }

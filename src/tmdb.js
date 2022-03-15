@@ -1,3 +1,4 @@
+/* eslint-disable default-case */
 /* eslint-disable import/no-anonymous-default-export */
 const api_key = "38c007f28d5b66f36b9c3cf8d8452a4b";
 const api_base = "https://api.themoviedb.org/3";
@@ -53,4 +54,23 @@ export default {
       },
     ];
   },
+  getMovieInfo: async (movieId, type) =>{
+    let info = {};
+             
+    if(movieId){
+      switch(type){
+        case 'movie':
+           info = await basicFetch(`/movie/${movieId}?language=pt-BR&api_key=${api_key}`);   
+         
+        break;
+        case 'tv' :
+           
+            info = await basicFetch(`/tv/${movieId}?language=pt-br&api_key=${api_key}`);
+
+          break;
+      }
+      return info
+    }
+
+  }
 };
