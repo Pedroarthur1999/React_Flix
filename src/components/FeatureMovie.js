@@ -19,7 +19,7 @@ export default ({ item }) => {
     >
       <div className="featured--vertical">
         <div className="featured--horizontal">
-          <div className="logo-netflix">NETFLIX</div>
+          
             <div className="featured--name">{item.original_name}</div>
               <div className="featured--information">
               <div className="featured--classification">{`${item.vote_average} Pontos`}</div>
@@ -33,7 +33,7 @@ export default ({ item }) => {
              <a href={`/watch/${item.id}`} className="button_play"> ►Assistir</a> 
              <a href={`/list/add/${item.id}`} className="button_list"> + Minha Lista</a>
            </div>
-           <div className="featured--genres"><strong>Gêneros:</strong>{genres.join(', ')}</div>
+           <div className="featured--genres"><strong>Gêneros: ...</strong>{genres.join(', ')}</div>
 
 
         </div>

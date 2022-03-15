@@ -1,0 +1,13 @@
+
+header{
+    position: fixed;
+    z-index: 999;
+}
+.logo-netflix {
+    color: red;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    padding: 10px 3rem;
+    
+    
+  }
